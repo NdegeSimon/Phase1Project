@@ -4,7 +4,7 @@ let currentIndex = 0;
 // Fetch profiles
 async function fetchProfiles() {
   try {
-    const res = await fetch("http://localhost:3000/profiles");
+    const res = await fetch("https://phase1project-1-fe23.onrender.com/profiles");
     profiles = await res.json();
     showProfile(currentIndex);
   } catch (err) {
@@ -76,7 +76,7 @@ document.getElementById("add-profile-form").addEventListener("submit", async (e)
   const newProfile = { name, age, tagline, bio, tags, image };
 
   try {
-    await fetch("https://phase1project-9-9p94.onrender.com/profiles", {
+    await fetch("https://phase1project-1-fe23.onrender.com/profiles", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newProfile),
