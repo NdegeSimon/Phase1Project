@@ -32,15 +32,22 @@ body {
 /* PROFILE CARD */
 .profile-card {
   position: relative;
+  height: 80vh;
   width: 100vw;
   max-width: 1600px;
-  height: 85vh;
   margin: 4rem auto;
   background: #111;
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
+#profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 
 /* PROFILE IMAGE */
 .profile-card img {
