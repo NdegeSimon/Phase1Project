@@ -1,0 +1,155 @@
+{
+  "profiles": [
+    {
+      "name": "Isabella Rose",
+      "age": 24,
+      "image": "https://t4.ftcdn.net/jpg/06/41/97/55/240_F_641975517_p4t4c7EZThJ9ssjLSSoGudCXuuiDFRfd.jpg",
+      "tagline": "Nature lover and poet.",
+      "bio": "Writing poetry under the stars and hiking through forests gives me peace. Let's share stories around a campfire.",
+      "tags": [
+        "Poetry",
+        "Nature",
+        "Camping",
+        "Hiking"
+      ],
+      "id": "f45b"
+    },
+    {
+      "name": "Jackson Moore",
+      "age": 28,
+      "image": "https://img.freepik.com/premium-photo/handsome-young-man-casual-wear-looking-camera-keeping-arms-crossed-while-standing-against-grey-wall_425904-3378.jpg?uid=R42070522&semt=ais_items_boosted&w=740",
+      "tagline": "Fitness junkie and personal trainer.",
+      "bio": "Whether it's lifting weights or biking trails, I'm always moving. Join me for a workout and post-gym smoothie.",
+      "tags": [
+        "Fitness",
+        "Gym",
+        "Cycling",
+        "Smoothies"
+      ],
+      "id": "96ba"
+    },
+    {
+      "name": "Olivia Green",
+      "age": 26,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Fblack-beautiful-women&psig=AOvVaw1NvlHa6SeELiRVjdn19O0s&ust=1751019635384000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCxg87ujo4DFQAAAAAdAAAAABAL",
+      "tagline": "Artist with a camera.",
+      "bio": "Capturing emotion through photography and painting life as I see it. I love gallery visits and deep convos.",
+      "tags": [
+        "Art",
+        "Photography",
+        "Museums",
+        "Painting"
+      ],
+      "id": "8c6d"
+    },
+    {
+      "name": "Mason King",
+      "age": 32,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Fphotos%2Fman&psig=AOvVaw0KoUDFGn8EFXlSSe0WtrpE&ust=1751019709780000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODwivDujo4DFQAAAAAdAAAAABAE",
+      "tagline": "Gamer and musician.",
+      "bio": "Daytime developer, nighttime musician. I create indie games and record acoustic covers on weekends.",
+      "tags": [
+        "Gaming",
+        "Music",
+        "Coding",
+        "Acoustic"
+      ],
+      "id": "ddcb"
+    },
+    {
+      "name": "Amelia Scott",
+      "age": 23,
+      "image": "https://media.istockphoto.com/id/1289220545/photo/beautiful-woman-smiling-with-crossed-arms.jpg?s=612x612&w=0&k=20&c=qmOTkGstKj1qN0zPVWj-n28oRA6_BHQN8uVLIXg0TF8=",
+      "tagline": "Fashion student & dreamer.",
+      "bio": "Studying design and chasing big dreams in fashion. Let’s visit thrift stores and sketch runway ideas together!",
+      "tags": [
+        "Fashion",
+        "Design",
+        "Thrifting",
+        "Dreams"
+      ],
+      "id": "061f"
+    },
+    {
+      "name": "Logan Brooks",
+      "age": 29,
+      "image": "https://img.freepik.com/free-photo/pretty-black-woman-s-portrait-wears-braids-pony-tail_633478-1392.jpgAAdAAAAABAL",
+      "tagline": "Chef in progress.",
+      "bio": "Food is my love language. I enjoy creating new recipes and hosting dinner parties. Let's cook something spicy!",
+      "tags": [
+        "Cooking",
+        "Food",
+        "Recipes",
+        "Hosting"
+      ],
+      "id": "97f3"
+    },
+    {
+      "name": "Chloe Adams",
+      "age": 27,
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fblack-man&psig=AOvVaw0KoUDFGn8EFXlSSe0WtrpE&ust=1751019709780000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODwivDujo4DFQAAAAAdAAAAABAX",
+      "tagline": "Writer and minimalist.",
+      "bio": "I write to live and live simply. Journaling, hiking, and unplugging from noise. Want to share quiet moments?",
+      "tags": [
+        "Writing",
+        "Minimalism",
+        "Nature",
+        "Books"
+      ],
+      "id": "d34c"
+    },
+    {
+      "name": "Aiden Brown",
+      "age": 30,
+      "image": "https://t4.ftcdn.net/jpg/06/55/79/25/360_F_655792503_EAROJpe4zmMSKtIyHq4Ez2Jiz7TqKsPt.jpg",
+      "tagline": "Engineer by day, DJ by night.",
+      "bio": "Building systems and spinning beats—my two sides. Let’s dance or build something cool.",
+      "tags": [
+        "Engineering",
+        "DJ",
+        "Music",
+        "Tech"
+      ],
+      "id": "1c2a"
+    },
+    {
+      "name": "Harper Lewis",
+      "age": 22,
+      "image": "",
+      "tagline": "Beach soul and sunset chaser.",
+      "bio": "I find joy in salty air, sandy toes, and golden sunsets. Surfing is my therapy. Want to catch waves together?",
+      "tags": [
+        "Beach",
+        "Surfing",
+        "Sunsets",
+        "Adventure"
+      ],
+      "id": "6346"
+    },
+    {
+      "name": "Elijah Tucker",
+      "age": 33,
+      "image": "https://www.freepik.com/free-photo/woman-wearing-african-native-attire_60901507.htm#fromView=keyword&page=1&position=1&uuid=186c5fbc-4d28-4bde-8c41-d24f67ed77a9&query=Africa+Women",
+      "tagline": "History buff & podcast host.",
+      "bio": "I host a history podcast and love visiting ancient ruins. Let's grab coffee and debate world events.",
+      "tags": [
+        "History",
+        "Podcasts",
+        "Coffee",
+        "Debate"
+      ],
+      "id": "39ec"
+    },
+    {
+      "id": "b1fc",
+      "name": "kndk",
+      "age": 35,
+      "tagline": "twtwt twttwy",
+      "bio": "ssdsdsdgsdgsdgsdfgs",
+      "tags": [
+        "fsd sgsgsgsd fsdgsfs"
+      ],
+      "image": "https://img.freepik.com/free-photo/pretty-black-woman-s-portrait-wears-braids-pony-tail_633478-1392.jpg"
+    }
+  ]
+}
