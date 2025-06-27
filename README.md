@@ -15,8 +15,8 @@ ChatSnap is a fun and interactive web app that lets users explore profile cards 
 Screenshot
 
 ----------
+![ChatSnap Profile Viewer](./Pasted%20image.png)
 
-![ChatSnap!](/assets/images/san-juan-mountains.jpg "ChatSnap Profile Viewer")
 
 Features
 
