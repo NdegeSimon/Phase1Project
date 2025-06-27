@@ -1,0 +1,23 @@
+{
+  "name": "phase1project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server  --host 0.0.0.0 --port $PORT db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NdegeSimon/Phase1Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NdegeSimon/Phase1Project/issues"
+  },
+  "homepage": "https://github.com/NdegeSimon/Phase1Project#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
