@@ -2,7 +2,7 @@ ChatSnap
 
 ==============
 
-#### A simple blog application built using React JS as a demonstration for Moringa School Phase 2 students learning React.
+#### A simple  application built using Html Css JS and fun  that lets users explore profile cards one by one..
 
 #### By **Simon Ndege**
 

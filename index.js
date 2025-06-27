@@ -17,10 +17,7 @@ document.addEventListener("DOMContentLoaded", fetchProfiles);
 
 // Show a profile
 function showProfile(index) {
-  if (profiles.length === 0) return;
   const profile = profiles[index];
-  console.log("Image URL:", profile.image);
-  // Set profile image, name, tagline, bio, and tags
 
   document.getElementById("profile-image").src = profile.image;
   document.getElementById("profile-name").innerHTML = `${profile.name} <span class="age">${profile.age} ❤️</span>`;
@@ -28,13 +25,14 @@ function showProfile(index) {
   document.getElementById("profile-bio").textContent = profile.bio;
 
   const tagsContainer = document.getElementById("profile-tags");
-  tagsContainer.innerHTML = "";
+  tagsContainer.innerHTML = ""; // clear old tags
   profile.tags.forEach(tag => {
     const span = document.createElement("span");
-    span.textContent = tag.trim();
+    span.textContent = tag;
     tagsContainer.appendChild(span);
   });
 }
+
 
 // Next button handler
 document.getElementById("next-btn").addEventListener("click", () => {
