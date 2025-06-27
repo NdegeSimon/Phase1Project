@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChatSnap</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="header">
+        <h1>Chat|Snap</h1>
+
+    </div>
+
+  <!-- Profile Card -->
+  <div id="profile-card" class="profile-card">
+    
+    <div class="gradient-overlay"></div>
+    <!-- Overlay Info -->
+     <!--this section adds the text on the profile card ,the text that apears on toop of the image-->
+    <div class="profile-info">
+      <h2 id="profile-name">Emma Wilson <span class="age">27 ❤️</span></h2>
+      <p id="profile-tagline">Travel enthusiast, coffee addict.<br> Let's explore the world together!</p>
+      <p class="about-title">About Me</p>
+      <p id="profile-bio">
+        I love exploring new places and trying different cuisines. Photography is my passion, and I'm always looking for the perfect shot.
+      </p>
+      <div class="gradient-overlay"></div>
+      <div id="profile-tags" class="profile-tags">
+        <span>Travel</span>
+        <span>Photography</span>
+        <span>Cooking</span>
+        <span>Hiking</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Next Button -->
+  <div class="next-btn-wrapper">
+    <button id="next-btn" class="next-btn">→ Next</button>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <a href="#" class="nav-item">
+      <i class="fas fa-home icon"></i>
+      <span class="text">Home</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fas fa-search icon"></i>
+      <span class="text">Explore</span>
+    </a>
+    <a href="#" class="nav-item add-button">
+      <i class="fas fa-plus icon"></i>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fas fa-comment icon"></i>
+      <span class="text">Messages</span>
+    </a>
+    <a href="#" class="nav-item">
+      <i class="fas fa-user icon"></i>
+      <span class="text">Profile</span>
+    </a>
+  </nav>
+
+  <!-- Add Profile Modal -->
+   <!--Here user is able to add changes to the profile-->
+<div id="add-profile-modal" class="modal" style="display:none;">
+  <div class="modal-content">
+    <span id="close-modal" class="close">&times;</span>
+    <h2>Add Profile Details</h2>
+    <form id="add-profile-form">
+      <input type="text" id="name" placeholder="Name" required /><br>
+      <input type="number" id="age" placeholder="Age" required /><br>
+      <input type="text" id="image" placeholder="Image URL" required /><br>
+      <input type="text" id="tagline" placeholder="Tagline" required /><br>
+      <textarea id="bio" placeholder="Bio" required></textarea><br>
+      <input type="text" id="tags" placeholder="Tags (comma separated)" required /><br>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
